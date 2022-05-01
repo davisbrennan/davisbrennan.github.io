@@ -1,116 +1,71 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+	box-sizing: border-box;
+}	
+nav {
+	width: fill;
+    height: 40px;
+	background-color: rgba(0, 0, 0,0.9);
+	position: fixed;
+	width: 100%;
+	top: 0px;
 }
 
-#navigation {
-    background-color: rgba(0,0,0);
-    color: white;
-    width: 100%;
-    position: fixed;
-    height: 50px;
-    z-index: 10;
-    top: 0px;
-
-
- 
+body {
+	font-family: 'Roboto Mono', monospace;
+	background-color: lightblue;
 }
 
-#menu {
-
+#welcome {
+	font-size: 52px;
+	text-align: center;
 }
 
-.content #mainbanner {
-    top: 50px;
-    background-image: url("https://github.com/davisbrennan/davisbrennan.github.io/raw/main/tacos.JPG");
-    height: 500px;
-    margin: 10px;
-    position: relative;
-    border: 2px solid black;
-
+#enter {
+	font-size: 40px;
+	color: black;
+	font-weight: normal;
+	background-color: lightgreen;
+	
 }
 
-#tttitle {
-
-    font-size: 95px;
-    color: white;
-    width: 60%;
-    top: 10px;
-    background-color: rgb(105, 104, 104,0.5);
-    overflow: hidden;
-    position: relative;
+#enter:hover {
+	background-color: white;
+	
 }
 
-#menubutton {
- 
-    font-size: 65px;
-    width: 200px;
-    color: white;
-    top: -3px;
-    background-color: rgb(105, 104, 104,0.5);
-    border: 2px solid black;
-    right: 120px;
-    position: relative;
-    overflow: hidden;
-}
-#menubutton2 {
- 
-    font-size: 65px;
-    width: 270px;
-    color: white;
-    top: -141px;
-    left: 120px;
-    background-color: rgb(105, 104, 104,0.5);
-    border: 2px solid black;
-    position: relative;
-    overflow: hidden;
-}
-
-#menubutton:hover {
-    background-color: black;
-}
-#menubutton2:hover {
-    background-color: black;
-}
-
-.bottomhalf {
-    position: relative;
-    margin-top: 65px;
-    
-  
-}
-
-#titles {
-    text-align: center;
-    margin: 30px 30px;
-   
-}
-
-#ourlocation {
-    right: 100px;
-    color: white;
-    width: 500px;
-    font-size: 35px;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.treeinfo {
-    right: 100px;
-    color: white;
-    width: 500px;
-    font-size: 23px;
-    text-align: center;
-    font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-.map{
-    float: left;
-}
-.content {
-    background-color: tan;
-}
+#info {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 10px;
+}	
 
 footer {
-    background-color: black;
-    height:70px;
-    width: fill;
+	text-align: center;
+	background-color: lightpink;
+}
+.main-page {
+	background-color: white;
+	margin-top: 50px;
+}
+
+nav .infobutton img  {
+	width: 40px;
+    height: 39px;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+
+nav .homebutton img  {
+	width: 40px;
+    height: 39px;
+	float: left;
+}
+
+
+#calendar1 {
+	border: 1px solid black;
+	float: center;
+	margin-right: 10px;
 }
