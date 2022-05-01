@@ -22,7 +22,7 @@
 
 .content #mainbanner {
     top: 50px;
-    background-image: url("tacos.jpg");
+    background-image: url("./tacos.jpg");
     height: 500px;
     margin: 10px;
     position: relative;
