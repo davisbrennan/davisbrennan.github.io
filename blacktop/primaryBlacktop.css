@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .title {
@@ -91,4 +92,5 @@
     .column {
         width: 100%;
     }
+    
 }
