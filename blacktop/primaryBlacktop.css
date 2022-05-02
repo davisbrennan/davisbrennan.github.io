@@ -72,11 +72,16 @@
     width: 25%;
     padding: 10px;
 }
-/*
-nav .topnav{
-    width: 30%;
+
+/* Style the top navigation bar */
+nav .topnav {
+    background-color: white;
+    margin-right: 0px;
+    right: 0px;
+    width: 100%;
+    
 }
-*/
+
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -135,4 +140,35 @@ input[type=text] {
     .column {
         width: 100%;
     }
+    
 }
+
+#signup {
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+
+
+}
+#register {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+input[type=text] {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 50px;
+}
+
