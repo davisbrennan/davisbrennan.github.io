@@ -50,16 +50,16 @@
 
 .button {
     background-color: #4c688f;
-    border: none;
+    border: 1px solid rgb(41, 40, 40);
     color: white;
-    padding: 15px 25px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 10px 10px;
     cursor: pointer;
-    border-radius: 12px;
+    border-radius: 5px;
 }
 
 .button:hover {
@@ -76,10 +76,11 @@
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
     position: sticky;
-    border: 2px solid red;
     width: 100%;
+    top: 0;
+    margin-right: 0px;
 }
 
 /* Style the topnav links */
@@ -95,7 +96,6 @@
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
-    color: black;
 }
 
 /* Create three equal columns that floats next to each other */
@@ -118,5 +118,4 @@
     .column {
         width: 100%;
     }
-    
 }
