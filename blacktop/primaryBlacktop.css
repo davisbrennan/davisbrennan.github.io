@@ -74,10 +74,19 @@
 }
 
 /* Style the top navigation bar */
+nav .topnav {
+    background-color: white;
+    
+}
 .topnav {
     overflow: hidden;
+<<<<<<< HEAD
     background-color: black;
     position: sticky;
+=======
+    background-color: #333;
+    border: 2px solid red;
+>>>>>>> cc2fdec49aedf144ca183d7d415b4dfb0d063db2
     width: 100%;
     top: 0;
     margin-right: 0px;
