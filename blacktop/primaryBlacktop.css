@@ -72,21 +72,16 @@
     width: 25%;
     padding: 10px;
 }
-
-/* Style the top navigation bar */
-nav .topnav {
-    background-color: white;
-    
+/*
+nav .topnav{
+    width: 30%;
 }
+*/
+/* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-<<<<<<< HEAD
-    background-color: black;
+
     position: sticky;
-=======
-    background-color: #333;
-    border: 2px solid red;
->>>>>>> cc2fdec49aedf144ca183d7d415b4dfb0d063db2
     width: 100%;
     top: 0;
     margin-right: 0px;
@@ -96,15 +91,28 @@ nav .topnav {
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: black;
 }
 
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
+}
+
+input[type=text] {
+    width: 65%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    height: 50px;
 }
 
 /* Create three equal columns that floats next to each other */
