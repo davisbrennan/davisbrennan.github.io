@@ -2,3 +2,93 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.title {
+    font-size: 50px;
+	color: white;
+	padding: 10px;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+.header{
+	font-size: 20px;
+    color: white;
+	padding: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px;
+}
+
+.content {
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.button {
+    background-color: #4c688f;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: #4c618f;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
