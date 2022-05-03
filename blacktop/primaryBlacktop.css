@@ -5,84 +5,6 @@
     background-color:rgb(66, 67, 73);
 }
 
-.title {
-    font-size: 50px;
-	color: white;
-	padding: 10px;
-	text-align: left;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: 0px;
-}
-
-.content {
-    font-size: 20px;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.button {
-    background-color: #4c688f;
-    border: 1px solid rgb(41, 40, 40);
-    color: white;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    margin: 10px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.button:hover {
-    background-color: #4c618f;
-}
-
-.column {
-    float: left;
-    text-align: center;
-    width: 25%;
-    padding: 10px;
-}
-
-input[type=text] {
-    width: 65%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    align-items: center;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    height: 50px;
-}
-
-.column {
-    float: left;
-    text-align: center;
-    width: 25%;
-    padding: 10px;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-    
-}
-
 #signup {
     background-color: black;
     color: white;
@@ -98,16 +20,4 @@ input[type=text] {
     text-align: center;
     width: 250px;
     height: 45px;
-}
-
-input[type=text] {
-    width: 65%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    align-items: center;
-    background-color: white;
-    color: black;
-    border-radius: 5px;
-    height: 50px;
 }

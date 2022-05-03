@@ -1,0 +1,10 @@
+title {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px; 
+    font-size: 50px;
+	color: white;
+	text-align: left;
+}

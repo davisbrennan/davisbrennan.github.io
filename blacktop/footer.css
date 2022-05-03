@@ -1,6 +1,4 @@
-footer {
-}
-
+/*Text on top of heder of footer * FIX LATER * */
 .aboutusfootclass #footerrspill {
     text-align: center;
     color: white;
@@ -8,7 +6,6 @@ footer {
     width: 100%;
     bottom: -20px;
     position: absolute;
- 
 }
 
 .aboutusfootclass {
@@ -19,10 +16,7 @@ footer {
     position: relative;
     background-size: contain;
     display: inline-block;
-
-
 }
-
 
 footer #aboutusfooter {
     color: white;
@@ -32,11 +26,7 @@ footer #aboutusfooter {
     text-align: center;
     width: 33%;
     position: relative;
-
-
 }
-
-
 
 #aboutustext {
     color: white;
@@ -46,8 +36,6 @@ footer #aboutusfooter {
     float: left;
     width: 33%;
     position: relative;
-
-
 }
 
 footer #contactus {
@@ -60,23 +48,17 @@ footer #contactus {
     margin-right: 33%;
     position: absolute;
     top: 0px;
-    overflow-wrap: default;
-    z-index: 10;
-
-
 }
 
 #contactustext {
     color: white;
     background-color: black;
-    
     font-size: 12px;
     width: 33%;
     margin-left: 33%;
     margin-right: 33%;
     position: absolute;
     top: 23px;
-
 }
 
 footer #morelinks {
@@ -90,21 +72,15 @@ footer #morelinks {
     margin-left: 66%;
     margin-right: fill;
     top: 0px;
-
-
-
 }
 
 #morelinkstext {
     color: white;
     background-color: black;
-
-    
     font-size: 12px;
     width: 33%;
     margin-left: 66%;
     margin-right: 101%;
     position: absolute;
     top: 23px;
-
 }
