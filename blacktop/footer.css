@@ -1,14 +1,51 @@
 footer {
-    background-color: black;
-    height:60px;
+}
+
+.aboutusfootclass #footerrspill {
+    text-align: center;
+    color: white;
+    background-color: purple;
+    width: 33%;
+    margin-left: 33%;
+    margin-right: 33%;
+    position: relative;
+ 
+}
+
+.aboutusfootclass {
+    background-color: yellow;
     width: fill;
     border: 2px solid black;
     top: 80px;
     position: relative;
+    background-size: contain;
+    display: inline-block;
+
+
 }
 
-#footerrspill {
-    text-align: center;
+
+footer #aboutusfooter {
     color: white;
     background-color: black;
+    bottom: 60%;
+    font-size: 23px;
+    text-align: center;
+    width: 33%;
+
+
+}
+
+
+#aboutustext {
+    color: white;
+    background-color: black;
+    bottom: 60%;
+    
+    font-size: 12px;
+    width: 30%;
+    float: left;
+    width: 33%;
+
+
 }
