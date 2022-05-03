@@ -26,17 +26,6 @@
     align-items: center;
 }
 
-.footer {
-    font-size: 15px;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px;
-}
-
 .button {
     background-color: #4c688f;
     border: 1px solid rgb(41, 40, 40);
@@ -62,34 +51,6 @@
     padding: 10px;
 }
 
-/* Style the top navigation bar */
-
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-
-    position: sticky;
-    width: 100%;
-    top: 0;
-    margin-right: 0px;
-}
-
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-}
-
 input[type=text] {
     width: 65%;
     padding: 12px 20px;
@@ -102,7 +63,6 @@ input[type=text] {
     height: 50px;
 }
 
-/* Create three equal columns that floats next to each other */
 .column {
     float: left;
     text-align: center;
@@ -110,14 +70,12 @@ input[type=text] {
     padding: 10px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
     .column {
         width: 100%;
@@ -133,8 +91,6 @@ input[type=text] {
     position: relative;
     width: 200px;
     height: 50px;
-
-
 }
 #register {
     background-color: black;
@@ -142,7 +98,6 @@ input[type=text] {
     text-align: center;
     width: 250px;
     height: 45px;
-
 }
 
 input[type=text] {
@@ -156,7 +111,3 @@ input[type=text] {
     border-radius: 5px;
     height: 50px;
 }
-
-
-
-

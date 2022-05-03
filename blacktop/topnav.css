@@ -1,0 +1,22 @@
+.topnav {
+    overflow: hidden;
+    position: sticky;
+    width: fill;
+    top: 0;
+    margin-right: 0px;
+}
+
+#topnav a {
+    float: left;
+    width: 10%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+}
+
+#topnav a:hover {
+    background-color: #ddd;
+}
