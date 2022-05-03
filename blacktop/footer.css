@@ -1,108 +1,30 @@
-footer {
-}
 
-.aboutusfootclass #footerrspill {
+/* Site Footer */
+.footer {
+    background-color: #E8E8E8;
+    padding: 30px;
     text-align: center;
-    color: white;
-    background-color: black;
-    width: 100%;
-    bottom: -20px;
-    position: absolute;
- 
-}
+  }
+  .footer-navigation {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+  
+  @media(min-width: 720px) {
+    .footer-right {
+      float: right;
+      margin-top: 0;
+    }
+  }
+  .footer li {
+    line-height: 0;
+  }
+  .footer li a {
+    text-decoration: none;
+    margin-left: 20px;
+  }
 
-.aboutusfootclass {
-    background-color: black;
-    width: fill;
-    border: 2px solid black;
-    top: 80px;
-    position: relative;
-    background-size: contain;
-    display: inline-block;
-
-
-}
-
-
-footer #aboutusfooter {
-    color: white;
-    background-color: black;
-    bottom: 60%;
-    font-size: 23px;
-    text-align: center;
-    width: 33%;
-    position: relative;
-
-
-}
-
-
-
-#aboutustext {
-    color: white;
-    background-color: black;
-    bottom: 60%;
-    font-size: 12px;
-    float: left;
-    width: 33%;
-    position: relative;
-
-
-}
-
-footer #contactus {
-    color: white;
-    background-color: black;
-    font-size: 23px;
-    text-align: center;
-    width: 33%;
-    margin-left: 33%;
-    margin-right: 33%;
-    position: absolute;
-    top: 0px;
-
-
-}
-
-#contactustext {
-    color: white;
-    background-color: black;
+  .footer-right {
+      color: black;
     
-    font-size: 12px;
-    width: 33%;
-    margin-left: 33%;
-    margin-right: 33%;
-    position: absolute;
-    top: 23px;
-
-}
-
-footer #morelinks {
-    color: white;
-    background-color: black;
-    bottom: 60%;
-    font-size: 23px;
-    text-align: center;
-    width: 33%;
-    position: absolute;
-    margin-left: 66%;
-    margin-right: fill;
-    top: 0px;
-
-
-
-}
-
-#morelinkstext {
-    color: white;
-    background-color: black;
-
-    
-    font-size: 12px;
-    width: 33%;
-    margin-left: 66%;
-    margin-right: 101%;
-    position: absolute;
-    top: 23px;
-
-}
+  }
