@@ -60,6 +60,8 @@ footer #contactus {
     margin-right: 33%;
     position: absolute;
     top: 0px;
+    overflow-wrap: default;
+    z-index: 10;
 
 
 }
