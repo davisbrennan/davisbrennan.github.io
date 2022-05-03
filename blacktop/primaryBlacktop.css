@@ -169,18 +169,5 @@ input[type=text] {
 }
 
 
-footer {
-    background-color: black;
-    height:60px;
-    width: fill;
-    border: 2px solid black;
-    top: 80px;
-    position: relative;
-}
 
-#footerrspill {
-    text-align: center;
-    color: white;
-    background-color: black;
-}
 
