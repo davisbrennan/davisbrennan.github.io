@@ -1,15 +1,14 @@
-
 /* Site Footer */
 .footer {
-    background-color: #E8E8E8;
-    padding: 30px;
-    text-align: center;
+  background-color: #E8E8E8;
+  padding: 30px;
+  text-align: center;
 }
 .footer-navigation {
   margin: 0 auto;
   max-width: 1280px;
 }
-  
+
 @media(min-width: 720px) {
   .footer-right {
     float: right;
@@ -23,6 +22,7 @@
   text-decoration: none;
   margin-left: 20px;
 }
+
 
 
 
