@@ -14,6 +14,9 @@
     <link href="content.css" rel="stylesheet">
     <link href="textbox.css" rel="stylesheet">
     <link href="button.css" rel="stylesheet">
+    <link href="topnav.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+
     <link href="primaryBlacktop.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
@@ -33,28 +36,33 @@
             BlackTop
         </p>
     </header>
-    <title class = "title">
-        Login
-    </title>
-    <header class = "header">
-        <p id = "header">
-            Enter Username and Password
-        </p>
-    </header>
+    <div id="backgroundlogin">
+       
+ 
+    <div class = "loginform">
+        <p id="logintext">Login</p> 
+        <input type="text" id="username" name="username" placeholder="Username" id="entrylogin">
+    
+        <input type="text" id="password" name="password" placeholder="Password" id="entrylogin">
 
-    <div class = "content">
-        <input type="text" id="username" name="username" placeholder="Username">
+    <div class = "loginbutton">
+        <button href="" class="button">
+            <span class="button__text">
+                Login
+            </span>
+        </button>
     </div>
-    <div class = "content">
-        <input type="text" id="password" name="password" placeholder="Password">
+    <div class = "forgotpswd">
+        <a href="" class="button">Idk psswd</a>
     </div>
+    </div>
+    </div>
+</div>
 
-    <button type="button" class="button">
-        <span class="button__text">Login</span>
-    </button>
-    <button type="button" class="button">
-        <span class="button__text">Sign Up</span>
-    </button>
+<button type="button" class="button">
+    <span class="button__text">Test</span>
+</button>
+
 
   <!-- Site Footer -->
   <footer role="contentinfo" class="footer clearfix">
@@ -70,9 +78,5 @@
       </ul>
     </nav>
   </footer>
-
-        
-    </footer>
-
-</body>
+  </body>
 </html>

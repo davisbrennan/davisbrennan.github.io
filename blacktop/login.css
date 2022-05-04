@@ -1,0 +1,66 @@
+#backgroundlogin {
+
+    position: relative;
+    width: 100%;
+    height: 600px;
+
+}
+
+.loginform {
+
+    left: 33%;
+    position: absolute;
+    width: fill;
+    right: 33%;
+    height: 100%;
+    background-color: rgb(55, 54, 54);
+    border-radius: 20px;
+    border: 2px solid black;
+
+    
+}
+
+
+#username {
+    position: absolute;
+    border: 2px solid black;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#password {
+    position: absolute;
+    border: 2px solid black;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginbutton {
+    position: absolute;
+    background-color: rgb(55, 54, 54);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forgotpswd {
+    position: absolute;
+    background-color: rgb(55, 54, 54);
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logintext {
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-color: rgb(55, 54, 54);
+
+}
