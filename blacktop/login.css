@@ -13,14 +13,14 @@
     width: fill;
     right: 33%;
     height: 100%;
-    background-color: rgb(55, 54, 54);
+    background-color: rgb(52, 52, 52);
+
     border-radius: 20px;
-    border: 2px solid black;
+    border: 2px solid rgba(0, 0, 0, 0.2);
 
     
 }
-
-
+/* Login page element*/
 #username {
     position: absolute;
     border: 2px solid black;
@@ -29,7 +29,7 @@
     transform: translate(-50%, -50%);
 
 }
-
+/* Login page element*/
 #password {
     position: absolute;
     border: 2px solid black;
@@ -37,18 +37,52 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/* Sign up page element*/
+#email {
+    position: absolute;
+    border: 2px solid black;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+}
+/* Sign up page element*/
+#repeatPassword {
+    position: absolute;
+    border: 2px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Login page element*/
 .loginbutton {
     position: absolute;
-    background-color: rgb(55, 54, 54);
+    background-color: rgb(52, 52, 52);
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/* Sign up page element*/
+.registerButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Sign up page element*/
+.accountButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Login page element*/
 .forgotpswd {
     position: absolute;
-    background-color: rgb(55, 54, 54);
+    background-color: rgb(52, 52, 52);
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -61,6 +95,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 40px;
-    background-color: rgb(55, 54, 54);
+    background-color:rgb(52, 52, 52);
 
 }
