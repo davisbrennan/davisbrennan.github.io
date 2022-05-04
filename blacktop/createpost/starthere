@@ -1,0 +1,67 @@
+
+
+Use the below code to start a page in this directory
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BlackTop-Home</title>
+    <script>
+    </script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
+    <link href="topnav.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+    <link href="content.css" rel="stylesheet">
+    <link href="button.css" rel="stylesheet">
+    <link href="title.css" rel="stylesheet">
+    <link href="header.css" rel="stylesheet">
+    <link href="footer.css" rel="stylesheet">
+    <link href="primaryBlacktop.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="topnav">
+        <div id="topnav">
+            <a href="index.html">Home</a>
+            <a href= "login.html">Login</a>
+            <a href= "signup.html">Register</a>
+            <a href="about.html">About</a>
+        </div>
+    </nav>
+    <title class = "title">
+        BlackTop
+    </title>
+<!--- Body of page below-->
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Site Footer -->
+  <footer role="contentinfo" class="footer clearfix">
+    <!-- Site Footer Nav -->
+    <nav role="navigation" class="footer-navigation">
+      <ul class="footer-left">
+        <li>
+          Copyright &copy; 2022. Blacktop. All Rights Reserved.
+        </li>
+      </ul>
+    <!-- currently not being used-->
+      <ul class="footer-right">
+      </ul>
+    </nav>
+  </footer>
+    
+</body>
+</html>
