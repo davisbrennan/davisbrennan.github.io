@@ -29,6 +29,16 @@
     height: 100%;
 }
 
+.material-icons{
+    background-color: transparent;
+    display: inline-flex;
+    align-items: center;
+    width:100%;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    height: 100%;
+}
+
 .button__text:hover, .material-icons:hover{
     background-color: #55739e;
 }

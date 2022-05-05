@@ -1,0 +1,162 @@
+.aboutusbody {
+    border: 2px solid red;
+    position: relative;
+    height: 700px;
+}
+
+/** Brennans Header **/
+
+#aboutusbackground {
+    border: 1px solid black;
+    left: 10%;
+    right: 55%;
+    position: absolute;
+    width: fill;
+    height: 100%;
+    background-color: rgb(52, 52, 52);
+
+    border-radius: 20px;
+}
+
+#aboutusheader {
+    background-color: white;
+    left: 0%;
+    right: 55%;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+img {
+    border-radius: 50%; 
+    position: absolute;
+    border: 2px solid black;
+    width:35%;
+    left: 30%;
+    top: 6%;
+}
+
+h3 {
+    position: absolute;
+
+    width:48%;
+    left: 25%;
+    top: 30%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(52, 52, 52);
+
+}
+
+#insideprofilecard {
+    border-top: 2px solid white;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(52, 52, 52);
+
+}
+
+#insideprofilecard .button {
+    text-align: center;
+    top: 0%;
+    position: absolute;
+    left: 20%;
+    width: 50%
+
+}
+
+#insideprofilecard .button p {
+    background-color: #4c688f;
+    text-align: center;
+    left: 23%;
+    top: 15%;
+    font-size: 18px;
+    position: absolute;
+    overflow: wrap;
+}
+
+#profilecardwidget {
+    border: 1px solid white;
+    position: absolute;
+    width: 18%;
+    left: 20%;
+    height: 13%;
+    top: 15%;
+    text-align: center;
+    color: white;
+
+}
+#profilecardwidget2 {
+    border: 1px solid white;
+    position: absolute;
+    width: 18%;
+    left: 40%;
+    height: 13%;
+    top: 15%;
+    text-align: center;
+    color: white;
+
+}
+#profilecardwidget3 {
+    border: 1px solid white;
+    position: absolute;
+    width: 18%;
+    left: 60%;
+    height: 13%;
+    top: 15%;
+    text-align: center;
+    color: white;
+
+}
+
+#profilecardwidget .material-icons {
+    left: 18%;
+    position: absolute;
+    top: 20%;
+
+}
+
+#profilecardwidget2 .material-icons {
+    left: 18%;
+    position: absolute;
+    top: 20%;
+
+}
+
+#profilecardwidget3 .material-icons {
+    left: 18%;
+    position: absolute;
+    top: 20%;
+
+}
+
+
+
+/** Kagens Section **/
+
+#aboutusbackground1 {
+    border: 1px solid black;
+    left: 55%;
+    position: absolute;
+    width: fill;
+    right: 10%;
+    height: 100%;
+    background-color: rgb(52, 52, 52);
+
+    border-radius: 20px;
+}
+
+#aboutusheader1 {
+    background-color: white;
+    left: 0%;
+    right: 55%;
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+}
+
