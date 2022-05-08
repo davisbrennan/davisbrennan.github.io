@@ -1,5 +1,4 @@
 .aboutusbody {
-    border: 2px solid red;
     position: relative;
     height: 700px;
 }
@@ -27,6 +26,8 @@
     height: 20%;
     border-radius: 20px;
 }
+
+/* Universial Elements */
 
 img {
     border-radius: 50%; 
