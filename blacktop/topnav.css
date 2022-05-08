@@ -4,6 +4,7 @@
     width: fill;
     top: 0;
     margin-right: 0px;
+    z-index: 10;
 }
 
 #topnav a {

@@ -23,6 +23,60 @@
 }
 
 
+.sidebar {
+  border: 2px solid red;
+  height: 600px;
+  position: relative;
+  background-color: rgb(52, 52, 52);
+  width: 25%;
+  left: 75%;
+
+  border-radius: 20px;
+}
+
+#SideBarTitle h3 {
+  color:white;
+  position:absolute;
+  background-color: rgb(52, 52, 52);
+  left: 33%;
+  font-size: 20px;
+}
+
+#SideBarMenu {
+  position:absolute;
+  top: 10%;
+  color: white;
+  background-color: rgb(52, 52, 52);
+}
+
+#SideBarMenu h4 {
+  background-color: rgb(52, 52, 52);
+}
+
+#SideBarMenu ul {
+  background-color: rgb(52, 52, 52);
+  position:absolute;
+  width: 150%;
+  left: 10%;
+}
+
+#SideBarMenu li {
+  background-color: rgb(52, 52, 52);
+
+
+}
+
+#SideBarMenu a {
+  color: white;
+  background: transparent;
+}
+
+
+
+
+
+
+
 
 
 .wrapper {

@@ -1,0 +1,9 @@
+.createapost {
+    border: 2px solid red;
+    position: relative;
+}
+
+#createaposttitle {
+    color: white;
+    font-size: 18px;
+}
