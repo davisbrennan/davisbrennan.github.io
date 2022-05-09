@@ -112,6 +112,84 @@
   color: black;
 }
 
+.feed img {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  left: 3%;
+}
+
+.feed h5 {
+  color: white;
+  position: absolute;
+  left: 14%;
+  top: 5%;
+  font-size: 18px;
+  background-color: rgb(26, 26, 26);
+}
+
+.feed #undertitlefeed {
+  color: white;
+  position: absolute;
+  left: 14%;
+  top: 30%;
+  font-size: 12px;
+  background-color: rgb(26, 26, 26);
+}
+.feed #feedcommentsnmore {
+  position: absolute;
+  color: white;
+  bottom: 0%;
+  left: 15%;
+  background-color: rgb(26, 26, 26);
+
+}
+.feed i {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+}
+
+.feed #feedpost1 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  height: 20%;
+  border-radius: 8px;
+  background-color: rgb(26, 26, 26);
+}
+
+.feed #feedpost2 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 32%;
+  height: 20%;
+  background-color: rgb(26, 26, 26);
+  border-radius: 8px;
+}
+
+.feed #feedpost3 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 54%;
+  height: 20%;
+  background-color: rgb(26, 26, 26);
+  border-radius: 8px;
+}
+
+.feed #feedpost4 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 76%;
+  height: 20%;
+  background-color: rgb(26, 26, 26);
+  border-radius: 8px;
+}
+
 
 
 

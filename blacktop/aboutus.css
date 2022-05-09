@@ -135,6 +135,18 @@ h3 {
 
 }
 
+#aboutinfo {
+    color: white;
+    position: absolute;
+    top: 40%;
+    width: 75%;
+    left: 10%;
+    border: 2px solid black;
+}
+#aboutinfo p {
+    background-color: rgb(52, 52, 52);
+}
+
 
 
 /** Kagens Section **/
