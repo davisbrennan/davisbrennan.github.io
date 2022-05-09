@@ -66,6 +66,8 @@
 
 }
 
+
+
 #SideBarMenu a {
   color: white;
   background: transparent;
@@ -127,6 +129,15 @@
   font-size: 18px;
   background-color: rgb(26, 26, 26);
 }
+.feed h5:hover {
+  color: white;
+  position: absolute;
+  left: 14%;
+  top: 5%;
+  font-size: 18px;
+  background-color: rgb(79, 77, 77);
+  cursor: pointer;
+}
 
 .feed #undertitlefeed {
   color: white;
@@ -159,6 +170,7 @@
   border-radius: 8px;
   background-color: rgb(26, 26, 26);
 }
+
 
 .feed #feedpost2 {
   border: 3px solid black;
