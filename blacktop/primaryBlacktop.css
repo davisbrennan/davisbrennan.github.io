@@ -155,6 +155,16 @@
   background-color: rgb(26, 26, 26);
 
 }
+
+.feed #feedcommentsnmore:hover {
+  position: absolute;
+  color: white;
+  bottom: 0%;
+  left: 15%;
+  background-color: rgb(79, 77, 77);
+  cursor: pointer;
+}
+
 .feed i {
   width: 10%;
   height: 10%;
