@@ -9,3 +9,223 @@ input[type=text] {
     border-radius: 5px;
     height: 50px;
 }
+
+/* LIGHT MODE */
+.light-mode {
+    background-color: white;
+    color: black;
+  }
+
+.light-mode * {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(218, 229, 208);
+}
+  
+.light-mode #signup {
+    /*background-color: black;*/
+    color: white;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    width: 200px;
+    height: 50px;
+}
+.light-mode #register {
+    /*background-color: black;*/
+    color: black;
+    text-align: center;
+    width: 250px;
+    height: 45px;
+}
+
+
+.light-mode .sidebar {
+  border: 2px solid black;
+  height: 600px;
+  position: relative;
+  background-color: rgb(84, 186, 185);
+  width: 25%;
+  left: 74%;
+
+  border-radius: 20px;
+}
+
+.light-mode #SideBarTitle h3 {
+  color:white;
+  position:absolute;
+  background-color: rgb(52, 52, 52);
+  left: 33%;
+  font-size: 20px;
+}
+
+.light-mode #SideBarMenu {
+  position:absolute;
+  top: 10%;
+  color: white;
+  background-color: rgb(84, 186, 185);
+}
+
+.light-mode #SideBarMenu h4 {
+    background-color: rgb(84, 186, 185);
+}
+
+.light-mode #SideBarMenu ul {
+    background-color: rgb(84, 186, 185);
+  position:absolute;
+  width: 150%;
+  left: 10%;
+}
+
+.light-mode #SideBarMenu li {
+    background-color: rgb(84, 186, 185);
+
+
+}
+
+
+
+.light-mode #SideBarMenu a {
+  color: white;
+  background: transparent;
+}
+
+.light-mode .mainbody {
+  position: relative;
+}
+
+.light-mode .feed {
+  border: 3px solid black;
+  background-color: rgb(84, 186, 185);
+  position: absolute;
+  width: 60%;
+  top: 10%;
+  height: 500px;
+  border-radius: 20px;
+  left: 5%;
+}
+
+.light-mode .feed h2 {
+  color:black;
+  background-color: rgb(247, 236, 222);
+  font-size: 18px;
+  left: 38%;
+  position: absolute;
+  text-decoration: underline;
+}
+
+.light-mode .feed h4 {
+  color:black;
+  background-color: transparent;
+  font-size: 14px;
+  left: 2%;
+  position: absolute;
+  top: -4%;
+}
+
+.light-mode .feed a {
+  color: black;
+}
+
+.light-mode .feed a:hover {
+  color: black;
+}
+
+.light-mode .feed img {
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  left: 3%;
+}
+
+.light-mode .feed h5 {
+  color: black;
+  position: absolute;
+  left: 14%;
+  top: 5%;
+  font-size: 18px;
+  background-color: rgb(247, 236, 222);
+}
+.light-mode .feed h5:hover {
+  color: white;
+  position: absolute;
+  left: 14%;
+  top: 5%;
+  font-size: 18px;
+  background-color: rgb(79, 77, 77);
+  cursor: pointer;
+}
+
+.light-mode .feed #undertitlefeed {
+  color: black;
+  position: absolute;
+  left: 14%;
+  top: 30%;
+  font-size: 12px;
+  background-color: rgb(247, 236, 222);
+}
+.light-mode .feed #feedcommentsnmore {
+  position: absolute;
+  color: black;
+  bottom: 0%;
+  left: 15%;
+  background-color: rgb(247, 236, 222);
+
+}
+
+.light-mode .feed #feedcommentsnmore:hover {
+  position: absolute;
+  color: white;
+  bottom: 0%;
+  left: 15%;
+  background-color: rgb(79, 77, 77);
+  cursor: pointer;
+}
+
+.light-mode .feed i {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+}
+
+.light-mode .feed #feedpost1 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  height: 20%;
+  border-radius: 8px;
+  background-color: rgb(233, 218, 193);
+}
+
+
+.light-mode .feed #feedpost2 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 32%;
+  height: 20%;
+  background-color: rgb(233, 218, 193);
+  border-radius: 8px;
+}
+
+.light-mode .feed #feedpost3 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 54%;
+  height: 20%;
+  background-color: rgb(233, 218, 193);
+  border-radius: 8px;
+}
+
+.light-mode .feed #feedpost4 {
+  border: 3px solid black;
+  position: absolute;
+  width: 100%;
+  top: 76%;
+  height: 20%;
+  background-color: rgb(233, 218, 193);
+  border-radius: 8px;
+}
