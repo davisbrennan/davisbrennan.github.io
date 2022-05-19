@@ -22,7 +22,6 @@
     height: 45px;
 }
 
-
 .sidebar {
   border: 2px solid black;
   height: 600px;
@@ -62,11 +61,7 @@
 
 #SideBarMenu li {
   background-color: rgb(52, 52, 52);
-
-
 }
-
-
 
 #SideBarMenu a {
   color: white;
@@ -147,13 +142,13 @@
   font-size: 12px;
   background-color: rgb(26, 26, 26);
 }
+
 .feed #feedcommentsnmore {
   position: absolute;
   color: white;
   bottom: 0%;
   left: 15%;
   background-color: rgb(26, 26, 26);
-
 }
 
 .feed #feedcommentsnmore:hover {
