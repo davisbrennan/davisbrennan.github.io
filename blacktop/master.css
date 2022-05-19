@@ -1,0 +1,15 @@
+/* Calls every CSS page */ 
+
+/* calls objectCSS folder contents */
+@import url(objectsCSS/button.css);
+@import url(objectsCSS/content.css);
+@import url(objectsCSS/createpost.css);
+@import url(objectsCSS/footer.css);
+@import url(objectsCSS/header.css);
+@import url(objectsCSS/textbox.css);
+@import url(objectsCSS/title.css);
+@import url(objectsCSS/topnav.css);
+
+/* calls pagesCSS folder contents */
+@import url(pagesCSS/aboutus.css);
+@import url(pagesCSS/login.css);
