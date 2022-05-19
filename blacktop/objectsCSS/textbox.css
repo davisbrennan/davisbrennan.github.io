@@ -9,6 +9,17 @@ input[type=text] {
     border-radius: 5px;
     height: 50px;
 }
+input[type=password] {
+  width: 65%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  height: 50px;
+}
 
 /* LIGHT MODE */
 .light-mode {
