@@ -5,6 +5,7 @@
     <title>BlackTop - SignUp</title>
     <script>
     </script>
+    <script src="auth.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="reset.css" rel="stylesheet">
     <link href="master.css" rel="stylesheet">
@@ -36,18 +37,19 @@
  
         <div class = "loginform">
             <p id="logintext">Sign Up</p> 
-            <input type="text" id="username" name="username" placeholder="Username" >
-            <input type="text" id="email" name="email" placeholder="Email" >
-            <input type="password" id="password" name="password" placeholder="Password" >
-            <input type="password" id="repeatPassword" name="repeatPassword" placeholder="Reenter Password" >
-    
+            <form id="signupform">
+            <input type="email" id="username" name="username" placeholder="Username" >
+            <input type="password" id="email" name="email" placeholder="Email" >
         <div class = "registerButton">
             <button href="" class="button">
                 <span class="button__text">
                     Register
                 </span>
             </button>
+
+        
         </div>
+    </form>
         <div class = "accountButton">
             <button href="" class="button">
                 <span class="button__text">
