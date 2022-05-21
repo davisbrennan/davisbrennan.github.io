@@ -1,0 +1,21 @@
+[debug] [2022-05-21T05:30:47.374Z] ----------------------------------------------------------------------
+[debug] [2022-05-21T05:30:47.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Brennan Smith\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2022-05-21T05:30:47.376Z] CLI Version:   11.0.0
+[debug] [2022-05-21T05:30:47.376Z] Platform:      win32
+[debug] [2022-05-21T05:30:47.376Z] Node Version:  v17.3.1
+[debug] [2022-05-21T05:30:47.377Z] Time:          Fri May 20 2022 23:30:47 GMT-0600 (Mountain Daylight Time)
+[debug] [2022-05-21T05:30:47.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-21T05:30:47.383Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-21T05:30:47.384Z] > authorizing via signed-in user (brennan.davis.smith@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Brennan Smith\restraumt\davisbrennan.github.io
+

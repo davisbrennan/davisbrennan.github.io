@@ -1,10 +1,16 @@
 //signup
 
-const signupForm = document.querySelector('#signup-form');
-signupForm.addEventListener( 'submit', (e) => {
-    e.preventDefault();
-    const email = signupForm['signup-email'].value;
-    const password = signupForm['signup-password'].value;
 
-    console.log(email, password);
-})
+const auth = firebase.auth();
+
+function signup() {
+  let email = document.getElementById("signup-email");
+  let password = document.getElementById("signup-password");
+
+  const promise = auth.createUserWithEmailAndPassword(
+    email.value,
+    password.value
+  );
+  promise.catch(e => alert(e, message));
+  alert("Signed Up");
+}
