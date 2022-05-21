@@ -89,8 +89,10 @@ h3 {
 #profilePicture {
     /*border-radius: 10px solid red;*/
     position: relative;
-    height: 20%;
-    top: 5%;
+    text-align: center;
+    /*height: 20%;*/
+    /*top: 5%;*/
+    /*background: transparent;*/
     background-color: aqua;
 }
 
