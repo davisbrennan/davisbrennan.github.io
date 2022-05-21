@@ -15,15 +15,7 @@
     border-radius: 20px;
 }
 
-#aboutusheader {
-    background-color: white;
-    left: 0%;
-    right: 55%;
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    border-radius: 20px;
-}
+
 
 /* Kagen's section */
 #aboutusbackground1 {
@@ -37,107 +29,6 @@
     border-radius: 20px;
 }
 
-#aboutusheader1 {
-    background-color: white;
-    left: 0%;
-    right: 55%;
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    border-radius: 20px;
-}
+
 
 /* Universial Elements */
-h3 {
-    position: absolute;
-    width:48%;
-    left: 25%;
-    top: 30%;
-    text-align: center;
-    color: white;
-    font-size: 25px;
-    background-color: rgb(52, 52, 52);
-}
-
-#insideprofilecard {
-    border-top: 2px solid white;
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    height: 400px;
-    background-color: rgb(52, 52, 52);
-}
-
-#insideprofilecard .button {
-    text-align: center;
-    top: 0%;
-    position: absolute;
-    left: 20%;
-    width: 50%
-}
-
-#insideprofilecard .button p {
-    background-color: #4c688f;
-    text-align: center;
-    left: 23%;
-    top: 15%;
-    font-size: 18px;
-    position: absolute;
-    overflow: wrap;
-}
-
-#profilePicture {
-    /*border-radius: 10px solid red;*/
-    position: relative;
-    text-align: center;
-    /*height: 20%;*/
-    /*top: 5%;*/
-    /*background: transparent;*/
-    background-color: aqua;
-}
-
-#profilecardwidget {
-    border: 1px solid white;
-    position: absolute;
-    width: 18%;
-    left: 20%;
-    height: 13%;
-    top: 15%;
-    text-align: center;
-    color: white;
-}
-
-#profilecardwidget2 {
-    border: 1px solid white;
-    position: absolute;
-    width: 18%;
-    left: 40%;
-    height: 13%;
-    top: 15%;
-    text-align: center;
-    color: white;
-}
-
-#profilecardwidget3 {
-    border: 1px solid white;
-    position: absolute;
-    width: 18%;
-    left: 60%;
-    height: 13%;
-    top: 15%;
-    text-align: center;
-    color: white;
-}
-
-#aboutinfo {
-    color: white;
-    position: absolute;
-    top: 40%;
-    width: 75%;
-    left: 10%;
-    border: 2px solid black;
-}
-
-#aboutinfo p {
-    background-color: rgb(52, 52, 52);
-}
