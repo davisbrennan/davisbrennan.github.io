@@ -3,32 +3,123 @@
     height: 700px;
 }
 
-/* Brennan's section */
-#aboutusbackground {
+#leftContainer {
     border: 1px solid black;
-    left: 10%;
-    right: 55%;
     position: absolute;
-    width: fill;
+    left: 5%;
+    width: 40%;
     height: 100%;
     background-color: rgb(52, 52, 52);
     border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+
 }
 
-
-
-/* Kagen's section */
-#aboutusbackground1 {
+#rightContainer {
     border: 1px solid black;
-    left: 55%;
     position: absolute;
-    width: fill;
-    right: 10%;
+    right: 5%;
+    width: 40%;
     height: 100%;
     background-color: rgb(52, 52, 52);
     border-radius: 20px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
 }
 
+.friendButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 40%;
+    left:20%;
+    transform: translate(-50%, -50%);
+    
+}
+.profileButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 40%;
+    left: 50%;
+    display: inline-block;
+    transform: translate(-50%, -50%);
+    
+}
+.messageButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
 
+.backDrop{
+    position: absolute;
+    background-color: rgb(191, 191, 191);
+    width: 100%;
+    height: 20%;
+}
 
-/* Universial Elements */
+.aboutImage{
+    border-radius: 50%;
+    border: 1px solid black ;
+    position: absolute;
+    height: 128px;
+    width: 128px;
+    top: 10%;
+}
+
+.aboutName{
+    position: absolute;
+    color: white;
+    top: 30%;
+    background-color: transparent;
+    font-size:large;
+}
+
+.textbox{
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width: 90%;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 50em){
+    .friendButton {
+    position: absolute;
+    background-color: rgb(52, 52, 52);
+    top: 40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    }
+    .profileButton {
+        position: absolute;
+        background-color: rgb(52, 52, 52);
+        top: 50%;
+        left: 50%;
+        display: inline-block;
+        transform: translate(-50%, -50%); 
+    }
+    .messageButton {
+        position: absolute;
+        background-color: rgb(52, 52, 52);
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .textbox{
+        position: absolute;
+        top: 70%;
+        background-color: transparent;
+        color: white;
+        text-align: center;
+        width: 90%;
+        padding: 5px;
+    }
+}
